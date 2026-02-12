@@ -1,0 +1,29 @@
+.screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+  text-align: center;
+  background: #f0f4f8;
+  color: black;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  max-width: 300px;
+}
+
+.startButton {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
