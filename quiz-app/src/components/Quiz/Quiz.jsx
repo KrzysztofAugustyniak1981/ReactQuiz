@@ -2,6 +2,7 @@ import React from "react";
 import Question from "../question/Question";
 import ResultScreen from "../resultScreen/ResultScreen";
 import { QUESTIONS } from "../../data/quizQuestions";
+import { useState } from "react";
 
 const Quiz = ({ onRestart }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
