@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../Buttons/Button";
-import styles from "./StartScreen.module.css";
+import Button from "../buttons/Button";
+import styles from "./startScreen.module.css";
 
 const StartScreen = ({ onStart }) => {
     return (

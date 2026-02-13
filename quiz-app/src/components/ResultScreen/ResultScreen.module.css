@@ -1,0 +1,51 @@
+.container {
+  padding: 40px;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.success {
+  color: green;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.fail {
+  color: red;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.result {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.percent {
+  color: red;
+  font-weight: bold;
+}
+
+.answersList {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+}
+
+.answerBlock {
+  margin-bottom: 15px;
+}
+
+.question {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.correctAnswer {
+  color: green;
+}
+
+.incorrectAnswer {
+  color: red;
+}
