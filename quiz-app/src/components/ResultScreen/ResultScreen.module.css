@@ -49,3 +49,8 @@
 .incorrectAnswer {
   color: red;
 }
+.restartGood {
+    background-color: green;
+    color: white;
+    width: 20%;
+}

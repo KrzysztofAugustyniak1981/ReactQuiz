@@ -11,15 +11,24 @@
   margin-bottom: 20px;
   color: #007bff;
 }
-.answer {
-  font-size: 18px;
+.answerButton {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
   margin: 10px 0;
-  padding: 10px;
+  padding: 6px;
   width: 100%;
   max-width: 400px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
-  background-color: black;
+  background-color: grey;
   color: white;
 }
+.answers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;}

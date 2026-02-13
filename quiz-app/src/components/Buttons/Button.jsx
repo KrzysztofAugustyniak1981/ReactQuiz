@@ -8,13 +8,12 @@ const Button = ({
   disabled = false,
   ...rest
 }) => {
-  const buttonClass = [styles.btn, styles[className]].filter(Boolean).join(" ");
 
   return (
     <button
       type="button"
       onClick={onClick}
-      className={buttonClass}
+      className={`${styles.button} ${className}`}
       disabled={disabled}
       {...rest} // Dodatkowe propsy (redit)
     >

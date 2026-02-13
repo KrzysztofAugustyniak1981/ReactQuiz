@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Button/Button";
+import Button from "../buttons/Button";
 import styles from "./Question.module.css";
 
 const Question = ({ 

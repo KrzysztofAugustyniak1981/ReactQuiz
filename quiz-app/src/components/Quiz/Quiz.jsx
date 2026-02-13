@@ -1,6 +1,6 @@
 import React from "react";
 import Question from "../question/Question";
-import ResultScreen form "../resultScreen/ResultScreen";
+import ResultScreen from "../resultScreen/ResultScreen";
 import { QUESTIONS } from "../../data/quizQuestions";
 
 const Quiz = ({ onRestart }) => {

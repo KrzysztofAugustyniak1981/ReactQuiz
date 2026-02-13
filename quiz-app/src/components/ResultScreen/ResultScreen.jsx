@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Button/Button";
+import Button from "../buttons/Button";
 import styles from "./ResultScreen.module.css";
 
 const ResultScreen = ({ score, totalQuestions, userAnswers, onRestart }) => {
@@ -43,7 +43,7 @@ const ResultScreen = ({ score, totalQuestions, userAnswers, onRestart }) => {
                 ))}
             </div>
 
-            <Button onClick={onRestart} className={styles.restart}>
+            <Button onClick={onRestart} className={styles.restartGood}>
                 Powrót do startu
             </Button>
         </div>
